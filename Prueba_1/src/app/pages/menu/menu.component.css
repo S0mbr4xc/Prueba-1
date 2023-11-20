@@ -1,0 +1,40 @@
+/* Estilos para el header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .titulo h1 {
+    margin: 0;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para la lista de enlaces */
+  .lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .lista li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .lista a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .lista a:hover {
+    color: #ffcc00;
+  }
+  

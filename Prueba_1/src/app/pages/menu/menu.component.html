@@ -1,0 +1,11 @@
+<header>
+    <div class="titulo">
+        <h1>Prueba 1 - Esteban Córdova</h1>
+        <br>
+    </div>
+    <nav>
+        <ul class="lista">
+            <li *ngFor="let link of pages"><a href="#" [routerLink]="link.path">{{link.title}}</a></li>
+        </ul>
+    </nav>
+</header>
