@@ -10,21 +10,5 @@ import { Tarea } from 'src/app/domain/tarea';
 })
 
 export class AgregarComponent {
-  tarea: Tarea = new Tarea();
-  private path = '/tareas';
-  tareas: AngularFirestoreCollection<any>
-  constructor(private router: Router, private bd: AngularFirestore){
-    this.tareas = bd.collection(this.path)
-    this.tareas.valueChanges().subscribe(data => {
-      console.log(data)
-    })
-  }
-
-  save(){
-    
-  }
-
-  getAll(){
-    this.tareas.valueChanges()
-  }
+  
 }
