@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "prueba-1-esteban-cordova"
+  },
+  "targets": {
+    "prueba-1-esteban-cordova": {
+      "hosting": {
+        "Prueba_1": [
+          "prueba-1-esteban-cordova"
+        ]
+      }
+    }
+  }
+}
