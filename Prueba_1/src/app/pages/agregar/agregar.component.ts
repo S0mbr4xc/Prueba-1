@@ -19,4 +19,12 @@ export class AgregarComponent {
       console.log(data)
     })
   }
+
+  save(){
+    
+  }
+
+  getAll(){
+    this.tareas.valueChanges()
+  }
 }
